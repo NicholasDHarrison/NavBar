@@ -1,0 +1,145 @@
+ul {
+    display: flex;
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     background-color: black;
+ 
+   }
+  
+   
+   li {
+     float: left;
+     
+   }
+   
+   li a {
+     display: flex;
+     color: white;
+     text-align: center;
+     padding: 45px 40px 40px 40px;
+     text-decoration: none;
+     
+   }
+
+   li form {
+    display: flex;
+    color: white;
+    padding: 45px 40px 40px 40px;
+    text-decoration: none;
+    
+  }
+  .searchw {
+      width: 300px;
+  }
+   
+   li a:hover:not(.active) {
+     background-color: #111;
+     
+   }
+   
+   .Logo {
+     background-color: #da3121;
+     font-size: 40px;
+     padding: 35px 10px;
+     font-family: 'Roboto', sans-serif;
+     text-transform: initial;
+     font-weight: normal;
+    
+
+   }
+ 
+  .navtop {
+    flex-direction: row;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+
+  }
+  .search-icon{
+    height: 12px;
+  }
+  .search{
+      /* color: #da3121; */
+      background-color: #da3121;
+      border: 0;
+      height: 25px;
+      width: 30px;
+      
+
+  }
+  .searchmeasure {
+    padding: 40px 10px 40px 100px;
+  }
+  .cart {
+      height:20px;
+      width: 20px;
+  }
+
+.topbottom {
+    height: 40px;
+    width: 40px;
+}
+
+
+.rightnav{
+    color:white;
+    padding: 38px 50px 40px 500px;
+    text-decoration: none;
+    font-size: 15px;
+    text-align: right;
+}
+
+.rightnav a {
+     color: white;
+     text-align: center;
+     padding: 0; 
+     text-decoration: none;
+     font-family: 'Roboto', sans-serif;
+     
+    
+}    
+     
+.shopping{
+    height: 18px;
+}
+
+.header1 {
+    text-shadow: 2px 2px;
+    text-align: center;
+}
+
+
+@keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+  
+ div p{
+
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+  }
+
+  .content {
+      height: 50%;
+      width: 50%;
+      background-color: gray;
+  } 
+
+
+
+
+
+
+
+    
+
